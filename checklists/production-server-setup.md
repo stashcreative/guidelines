@@ -1,12 +1,11 @@
 # Production server setup checklist
 
-## 1. Update
+## Update the system
 
-1. [ ] Update the system
-  * Ubuntu
-    1. Run `apt-get update && apt-get upgrade`
+1. [ ] Update the package manager repositories and upgrade packages
+  * *Ubuntu*: run `apt-get update && apt-get upgrade`
 
-## 2. Secure remote root log in
+## Secure remote root log in
 
 1. [ ] Create new user
   * Ubuntu
